@@ -2,3 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
+.backColor {
+    background-color: rgb(248, 244, 244);
+}
