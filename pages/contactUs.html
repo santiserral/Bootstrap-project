@@ -71,7 +71,7 @@
                     />
                 </div>
                 <div class="col-md-4">
-                    <label for="motivo" class="form-label">Motivo</label>
+                    <label for="motivo" class="form-label">Motivo resumido</label>
                     <input
                         type="text"
                         class="form-control"
@@ -88,9 +88,35 @@
                         placeholder="Ejemplo: leomessi@elmejor.com"
                     />
                 </div>
+                <select
+                    class="form-select form-select-lg mb-3 mt-3"
+                    aria-label=".form-select-lg example"
+                >
+                    <option selected>Elige plato principal</option>
+                    <option value="1">Papas arrugadas</option>
+                    <option value="2">Papas fritas estándar</option>
+                    <option value="3">Papas fritas con cheddar y bacon</option>
+                </select>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Elige tu acompañamiento</option>
+                    <option value="1">Aros de cebolla</option>
+                    <option value="2">Nuggets</option>
+                    <option value="3">Ninguno</option>
+                </select>
+                <select
+                    class="form-select form-select-sm mt-3"
+                    aria-label=".form-select-sm example"
+                >
+                    <option selected>Elige tu bebida</option>
+                    <option value="1">Coca Cola</option>
+                    <option value="2">Fanta</option>
+                    <option value="3">Sprite</option>
+                </select>
                 <div class="mt-3 mb-3">
-                    <label for="textarea" class="form-label">Si necesitas explayarte más </label>
-                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                    <label for="textarea" class="form-label"
+                        >Detalles acerca del inconveniente</label
+                    >
+                    <textarea class="textarea form-control" id="textarea" rows="3"></textarea>
                 </div>
                 <button class="button btn btn-primary" type="reset">Enviar</button>
             </form>
