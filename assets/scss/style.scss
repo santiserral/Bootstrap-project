@@ -15,10 +15,11 @@ body {
 
 header{
     .nav {
-    background-color: #ffffff;
+    background-color: rgb(255, 165, 31);
     a {
         color: rgb(0, 0, 0);
         font-size: large;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 }
@@ -35,6 +36,9 @@ main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2rem;
 }
+}
+.burgerPrize {
+    font-family:'Times New Roman', Times, serif;
 }
 }
 
