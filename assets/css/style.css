@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+header .nav {
+  background-color: #ffffff;
+}
+header .nav a {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+main h2 {
+  color: white;
+}
+main .homeCards h5 {
+  color: white;
+}
+main .homeCards .burgerNames {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.2rem;
+}
+
+.backColor {
+  background-color: rgb(22, 22, 22);
+}
+
+.textarea {
+  height: 230px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: rgb(255, 165, 31);
+  justify-content: center;
+  gap: 2rem;
+}
+footer img {
+  width: 35px;
+}
+
+@media (max-width: 1200px) {
+  .map {
+    height: 480px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

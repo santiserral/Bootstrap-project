@@ -13,12 +13,12 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body class="backColor">
         <header>
             <!-- NAV START -->
-            <nav class="navbar navbar-expand-lg bg-light navColor">
+            <nav class="nav navbar navbar-expand-lg  navColor">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./index.html">
                         <div data-aos="fade-right">
@@ -38,7 +38,7 @@
                     <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link activ" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/products.html">Productos</a>
@@ -57,12 +57,11 @@
                 </div>
             </nav>
             <!-- NAV END -->
-            <h1 class="m-2 text-center">LAS PAPAS DE BELIBU</h1>
             <!-- CAROUSEL START -->
             <div class="">
                 <div
                     id="carouselExampleCaptions"
-                    class="mx-5 mb-3 carousel slide"
+                    class=" carousel slide"
                     data-bs-ride="false"
                 >
                     <div class="carousel-indicators">
@@ -91,7 +90,7 @@
                         <div class="carousel-item active">
                             <a href="./pages/products.html"
                                 ><img
-                                    src="./assets/imgs/carousel1.jpg"
+                                    src="./assets/imgs/carouselOne.jpg"
                                     class="d-block w-100"
                                     alt="papas cebolla bacon"
                             /></a>
@@ -106,7 +105,7 @@
                         <div class="carousel-item">
                             <a href="./pages/products.html"
                                 ><img
-                                    src="./assets/imgs/carousel2.jpg"
+                                    src="./assets/imgs/carouselTwo.png"
                                     class="d-block w-100"
                                     alt="papas cebolla bacon"
                             /></a>
@@ -121,7 +120,7 @@
                         <div class="carousel-item">
                             <a href="./pages/products.html"
                                 ><img
-                                    src="./assets/imgs/carousel3.jpg"
+                                    src="./assets/imgs/carouselThree.jpg"
                                     class="d-block w-100"
                                     alt="papas cebolla bacon"
                             /></a>
@@ -157,47 +156,39 @@
 
             <!-- CAROUSEL END -->
         </header>
-        <main class="container-fluid">
+        <main class="backColor container-fluid">
+            
+            <h2 class="d-flex justify-content-center my-5">¡Lo mas pedido!</h2>
             <!-- CARDS START -->
-            <div class="mb-1 justify-content-around row cards">
-                <span class="text-center mt-5 mb-3"><h2>¡Sugerencias del día!</h2></span>
-                <div class="card" style="width: 18rem">
-                    <img src="./assets/imgs/papas_arrugadas.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Papas arrugadas</h5>
-                        <p class="card-text">Papas fritas corte parrillero</p>
-                        <div class="divCard">
-                            <a href="./pages/products.html" class="btn btn-primary">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img src="./assets/imgs/papas_gofre.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Waffle de papas</h5>
-                        <p class="card-text">Papas estilo Gofre o Waffle</p>
-                        <div class="divCard">
-                            <a href="./pages/products.html" class="btn btn-primary">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img src="./assets/imgs/papas_normies.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Papas fritas estándar</h5>
-                        <p class="card-text">Porción de papas fritas simples</p>
-                        <div class="divCard">
-                            <a href="./pages/products.html" class="btn btn-primary">Ver más</a>
-                        </div>
-                    </div>
-                </div>
+            <article class="homeCards justify-content-between d-flex">
+            <div>
+                <a href="./pages/products.html">
+                    <img class="" src="assets/imgs/papas_normies.jpg" alt="chantin't">
+                </a>
+                <h5 class="burgerNames text-center">Porción de papas normales</h5 >
+            <h5 class="text-center">$777</h5>
+        </div>
+            <div>
+                <a href="./pages/products.html">
+                    <img class="" src="assets/imgs/papas_bravas .jpg" alt="chantin't">
+                </a>
+                <h5 class="burgerNames text-center">Papas Bravas</h5>
+                <h5 class="text-center">$777</h5>
             </div>
+            <div>
+                <a href="./pages/products.html">
+                    <img class="" src="assets/imgs/muchas_papas.jpg" alt="chantin't">
+                </a>
+                <h5 class="burgerNames text-center">Papas Chantin't</h5>
+                <h5 class="text-center">$777</h5>
+            </div>
+            </article>
             <!-- CARDS END -->
         </main>
-        <footer>
-            <img src="./assets/imgs/twitter.png" alt="" />
-            <img src="./assets/imgs/ig.jpg" alt="" />
-            <img src="./assets/imgs/wsp.png" alt="" />
+        <footer class="mt-5">
+            <a href="https://twitter.com"> <img src="./assets/imgs/twitter.png" alt="" /></a>
+            <a href="https://www.instagram.com/"><img src="./assets/imgs/ig.jpg" alt="" /></a>
+            <a href="https://web.whatsapp.com/"><img src="./assets/imgs/wsp.png" alt="" /></a> 
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
