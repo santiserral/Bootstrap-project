@@ -13,6 +13,9 @@ body {
   position: relative;
 }
 
+header .logo {
+  width: 110px;
+}
 header .nav {
   background-color: rgb(255, 165, 31);
 }
@@ -25,14 +28,18 @@ header .nav a {
 main h2 {
   color: white;
 }
-main .homeCards h5 {
+main h5 {
   color: white;
 }
-main .homeCards .burgerNames {
+main .burgerNames {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.2rem;
 }
-main .burgerPrize {
+main .cardsDiv {
+  gap: 5rem;
+}
+
+.burgerPrize {
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -58,7 +65,7 @@ footer img {
   width: 35px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
   .map {
     height: 480px;
   }

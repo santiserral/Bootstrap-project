@@ -14,6 +14,9 @@ body {
 }
 
 header{
+    .logo {
+        width: 110px;
+    }
     .nav {
     background-color: rgb(255, 165, 31);
     a {
@@ -28,7 +31,6 @@ main {
     h2 {
         color: white;
     }
-    .homeCards{
     h5 {
         color: white;
     }
@@ -36,10 +38,12 @@ main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2rem;
 }
+.cardsDiv {
+    gap: 5rem;
+}
 }
 .burgerPrize {
     font-family:'Times New Roman', Times, serif;
-}
 }
 
 .backColor {
@@ -64,8 +68,9 @@ footer {
 }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .map {
         height: 480px;
     }
+    
 }
