@@ -8,13 +8,9 @@ html {
   block-size: 100%;
 }
 
-body {
-  height: 100vh;
-  position: relative;
-}
-
 header .title {
   font-family: "Times New Roman", Times, serif;
+  color: black;
 }
 header .logo {
   width: 60px;
@@ -26,6 +22,34 @@ header .nav a {
   color: rgb(0, 0, 0);
   font-size: large;
   font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: rgb(255, 165, 31);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.products h5 {
+  color: black;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: rgb(255, 165, 31);
+  justify-content: center;
+  gap: 2rem;
+}
+footer img {
+  width: 35px;
+}
+
+body {
+  height: 100vh;
+  position: relative;
 }
 
 main h2 {
@@ -50,23 +74,19 @@ main .burgerPrize {
   height: 230px;
 }
 
-footer {
-  position: relative;
-  bottom: 0;
-  display: flex;
-  width: 100%;
-  padding: 1rem 0;
-  background-color: rgb(255, 165, 31);
-  justify-content: center;
-  gap: 2rem;
+.form-label {
+  color: rgb(255, 165, 31);
 }
-footer img {
-  width: 35px;
+
+h3 {
+  color: rgb(255, 165, 31);
+  font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 576px) {
   .map {
     height: 470px;
+    margin-bottom: 15px;
   }
 }
 

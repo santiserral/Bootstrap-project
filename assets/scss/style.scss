@@ -8,29 +8,14 @@ html {
     block-size: 100%;
 }
 
+@import "_header.scss";
+@import "_products.scss";
+@import "_footer.scss";
+
 body {
     height: 100vh;
     position: relative;
 }
-
-header{
-    .title {
-    font-family: 'Times New Roman', Times, serif;
-}
-    .logo {
-        width: 60px;
-    }
-    .nav {
-    background-color: rgb(255, 165, 31);
-    a {
-        color: rgb(0, 0, 0);
-        font-size: large;
-        font-family: 'Times New Roman', Times, serif;
-    }
-}
-}
-
-
 
 main {
     h2 {
@@ -56,23 +41,19 @@ main {
     height: 230px;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    padding: 1rem 0;
-    background-color: rgb(255, 165, 31);
-    justify-content: center;
-    gap: 2rem;
-    img {
-    width: 35px;
+.form-label {
+    color:  rgb(255, 165, 31);
 }
+
+h3 {
+    color:  rgb(255, 165, 31);
+    font-family: 'Times New Roman', Times, serif
 }
 
 @media (max-width: 576px) {
     .map {
         height: 470px;
+        margin-bottom: 15px;
     }
     
 }

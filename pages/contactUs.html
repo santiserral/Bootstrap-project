@@ -18,12 +18,12 @@
     <body class="backColor">
         <header>
             <!-- NAV START -->
-            <nav class="navbar navbar-expand-lg bg-light navColor">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html">
-                        <div data-aos="fade-right">
-                        <img class="w-25" src="../assets/imgs/icon.png" alt=""/></a>
-                        </div>
+            <nav class="nav navbar navbar-expand-lg navColor">
+                <div class="m-0 container-fluid">
+                    <a class="m-0 logo navbar-brand" href="../index.html">
+                        <img class="m-0 w-100" src="../assets/imgs/logo1.png " alt=""
+                    /></a>
+                    <h1 class="m-0 title">The Belibu Potatoes</h1>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -43,16 +43,18 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./products.html">Productos</a>
+                                <a class="nav-link" href="../pages/products.html">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./findUs.html">Encuéntranos</a>
+                                <a class="nav-link" href="../pages/findUs.html">Encuéntranos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./contactUs.html">Contáctate</a>
+                                <a class="nav-link active" href="../pages/contactUs.html"
+                                    >Contáctate</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./faqs.html">FAQS </a>
+                                <a class="nav-link" href="../pages/faqs.html">FAQS </a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +65,7 @@
         </header>
         <main>
             <!-- FORM START -->
-            <form action="#" class="m-2 row formulario">
+            <form action="#" class="m-2 row formulario d-flex justify-content-center">
                 <div class="col-md-4">
                     <label for="nombre" class="form-label">Tu nombre</label>
                     <input
@@ -91,8 +93,9 @@
                         placeholder="Ejemplo: leomessi@elmejor.com"
                     />
                 </div>
+                <span class="d-flex justify-content-center mt-3"><h3>Describe tu plato</h3></span>
                 <select
-                    class="form-select form-select-lg mb-3 mt-3"
+                    class="form-select form-select-lg mb-3 mt-3 w-75"
                     aria-label=".form-select-lg example"
                 >
                     <option selected>Elige plato principal</option>
@@ -100,14 +103,17 @@
                     <option value="2">Papas fritas estándar</option>
                     <option value="3">Papas fritas con cheddar y bacon</option>
                 </select>
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select
+                    class="form-select form-select-sm w-75"
+                    aria-label=".form-select-sm example"
+                >
                     <option selected>Elige tu acompañamiento</option>
                     <option value="1">Aros de cebolla</option>
                     <option value="2">Nuggets</option>
                     <option value="3">Ninguno</option>
                 </select>
                 <select
-                    class="form-select form-select-sm mt-3"
+                    class="form-select form-select-sm mt-3 w-75"
                     aria-label=".form-select-sm example"
                 >
                     <option selected>Elige tu bebida</option>
