@@ -1,5 +1,6 @@
+
 h1{
-    color: rgb(255, 165, 31);
+    color: map-get($colors , mainColor );
     font-family: 'Times New Roman', Times, serif;
 }
 .products {

@@ -53,10 +53,10 @@ body {
 }
 
 main h2 {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 main h5 {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 main .burgerNames {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

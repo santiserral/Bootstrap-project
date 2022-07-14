@@ -1,4 +1,5 @@
 
+
 header{
     .title {
     font-family: 'Times New Roman', Times, serif;
@@ -8,7 +9,7 @@ header{
         width: 60px;
     }
     .nav {
-    background-color: rgb(255, 165, 31);
+    background-color: map-get($colors , mainColor );
     a {
         color: rgb(0, 0, 0);
         font-size: large;

@@ -8,51 +8,57 @@ html {
     block-size: 100%;
 }
 
+
+@mixin height ($height){
+    height: $height;
+}
+
+@import "_colors.scss";
 @import "_header.scss";
 @import "_products.scss";
 @import "_footer.scss";
 
 body {
-    height: 100vh;
+    @include height(100vh);
     position: relative;
 }
 
 main {
     h2 {
-        color: white;
+        color: map-get($colors,white );
     }
     h5 {
-        color: white;
+        color: map-get($colors,white );
     }
     .burgerNames {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2rem;
-}
+    }
     .burgerPrize {
     font-family:'Times New Roman', Times, serif;
 }
 }
 
 .backColor {
-    background-color:rgb(22, 22, 22);
+    background-color: map-get($colors , background )
 }
 
     .textarea {
-    height: 230px;
+        @include height (230px);
 }
 
 .form-label {
-    color:  rgb(255, 165, 31);
+    color: map-get($colors , mainColor )
 }
 
 h3 {
-    color:  rgb(255, 165, 31);
-    font-family: 'Times New Roman', Times, serif
+    color: map-get($colors , mainColor );
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 576px) {
     .map {
-        height: 470px;
+        @include height (470px);
         margin-bottom: 15px;
     }
     

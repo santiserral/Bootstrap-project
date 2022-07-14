@@ -5,7 +5,7 @@ footer {
     display: flex;
     width: 100%;
     padding: 1rem 0;
-    background-color: rgb(255, 165, 31);
+    background-color:map-get($colors, mainColor );
     justify-content: center;
     gap: 2rem;
     img {
