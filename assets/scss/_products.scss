@@ -1,10 +1,9 @@
-
 h1{
-    color: map-get($colors , mainColor );
+    color: map-get($colors , amarelo );
     font-family: 'Times New Roman', Times, serif;
 }
 .products {
     h5 {
-        color: black;
+        color: map-get($colors, fondo);
     }
 }

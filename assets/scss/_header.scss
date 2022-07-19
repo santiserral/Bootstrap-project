@@ -9,7 +9,7 @@ header{
         width: 60px;
     }
     .nav {
-    background-color: map-get($colors , mainColor );
+    background-color: map-get($colors , amarelo );
     a {
         color: rgb(0, 0, 0);
         font-size: large;

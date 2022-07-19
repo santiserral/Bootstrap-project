@@ -40,7 +40,7 @@ main {
 }
 
 .backColor {
-    background-color: map-get($colors , background )
+    background-color: map-get($colors , fondo )
 }
 
     .textarea {
@@ -48,16 +48,16 @@ main {
 }
 
 .form-label {
-    color: map-get($colors , mainColor )
+    color: map-get($colors , amarelo )
 }
 
 h3 {
-    color: map-get($colors , mainColor );
+    color: map-get($colors , amarelo );
     font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 576px) {
-    .map {
+    .mapa {
         @include height (470px);
         margin-bottom: 15px;
     }
