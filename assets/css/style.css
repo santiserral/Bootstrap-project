@@ -59,7 +59,7 @@ main h5 {
   color: rgb(255, 255, 255);
 }
 main .burgerNames {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
 main .burgerPrize {

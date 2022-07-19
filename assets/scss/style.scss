@@ -8,8 +8,7 @@ html {
     block-size: 100%;
 }
 
-
-@mixin height ($height){
+@mixin height($height) {
     height: $height;
 }
 
@@ -25,41 +24,40 @@ body {
 
 main {
     h2 {
-        color: map-get($colors,white );
+        color: map-get($colors, white);
     }
     h5 {
-        color: map-get($colors,white );
+        color: map-get($colors, white);
     }
     .burgerNames {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
     }
     .burgerPrize {
-    font-family:'Times New Roman', Times, serif;
-}
+        font-family: "Times New Roman", Times, serif;
+    }
 }
 
 .backColor {
-    background-color: map-get($colors , fondo )
+    background-color: map-get($colors, fondo);
 }
 
-    .textarea {
-        @include height (230px);
+.textarea {
+    @include height(230px);
 }
 
 .form-label {
-    color: map-get($colors , amarelo )
+    color: map-get($colors, amarelo);
 }
 
 h3 {
-    color: map-get($colors , amarelo );
-    font-family: 'Times New Roman', Times, serif;
+    color: map-get($colors, amarelo);
+    font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 576px) {
     .mapa {
-        @include height (470px);
+        @include height(470px);
         margin-bottom: 15px;
     }
-    
 }
