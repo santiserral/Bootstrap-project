@@ -1,0 +1,2 @@
+# Final-Project
+Creé este readme ya que en la consigna del desafio me pide crear un archivo explicando brevemente los cambios en mi pagina como mejoria del SEO, agruegué las keywords que yo creia importantes y que tenian relacion con la página, y utilice en el mismo contenido de la pagina las palabras que yo creo importantes para que el navegador tenga en cuenta a la hora de buscar en el contenido, sin abusar, aunque por ejemplo la palabra papas o papas fritas se repita mucho en la seccion de productos, no se vuelve invasiva o hace que la pagina carezca de sentido.
