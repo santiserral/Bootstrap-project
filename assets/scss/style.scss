@@ -44,15 +44,24 @@ main {
 
 .textarea {
     @include height(230px);
+    width: 77%;
 }
 
 .form-label {
     color: map-get($colors, amarelo);
 }
 
+.formu {
+    width: 76%;}
+
 h3 {
     color: map-get($colors, amarelo);
     font-family: "Times New Roman", Times, serif;
+}
+
+.btn-outline-warning {
+    background-color: map-get($colors , amarelo );
+    color: black;
 }
 
 @media (max-width: 576px) {

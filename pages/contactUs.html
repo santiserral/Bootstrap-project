@@ -66,8 +66,10 @@
         <main>
             <!-- FORM START -->
             <form action="#" class="m-2 row formulario d-flex justify-content-center">
-                <div class="col-md-4">
-                    <label for="nombre" class="form-label">Tu nombre</label>
+                <div class="formu">
+                    <label for="nombre" class="justify-content-center d-flex mt-3 form-label"
+                        >Tu nombre</label
+                    >
                     <input
                         type="text"
                         class="form-control"
@@ -75,8 +77,10 @@
                         placeholder="Ejemplo: Lionel Messi"
                     />
                 </div>
-                <div class="col-md-4">
-                    <label for="motivo" class="form-label">Motivo resumido</label>
+                <div class="formu">
+                    <label for="motivo" class="justify-content-center d-flex mt-3 form-label"
+                        >Motivo resumido</label
+                    >
                     <input
                         type="text"
                         class="form-control"
@@ -84,8 +88,10 @@
                         placeholder="Ejemplo: Muy rica la comida 😋"
                     />
                 </div>
-                <div class="col-md-4">
-                    <label for="mail" class="form-label">Dirección E-mail</label>
+                <div class="formu">
+                    <label for="mail" class="justify-content-center d-flex mt-3 form-label"
+                        >Dirección E-mail</label
+                    >
                     <input
                         type="email"
                         class="form-control"
@@ -122,12 +128,14 @@
                     <option value="3">Sprite</option>
                 </select>
                 <div class="mt-3 mb-3">
-                    <label for="textarea" class="form-label"
+                    <label for="textarea" class="d-flex justify-content-center form-label"
                         >Detalles acerca del inconveniente</label
                     >
-                    <textarea class="textarea form-control" id="textarea" rows="3"></textarea>
+                    <div class="d-flex justify-content-center">
+                        <textarea class="textarea form-control" id="textarea" rows="3"></textarea>
+                    </div>
                 </div>
-                <button class="button btn btn-primary" type="reset">Enviar</button>
+                <button class="w-75 button btn btn-outline-warning" type="reset">Enviar</button>
             </form>
             <!-- FORM END -->
         </main>

@@ -72,15 +72,25 @@ main .burgerPrize {
 
 .textarea {
   height: 230px;
+  width: 77%;
 }
 
 .form-label {
   color: rgb(255, 165, 31);
 }
 
+.formu {
+  width: 76%;
+}
+
 h3 {
   color: rgb(255, 165, 31);
   font-family: "Times New Roman", Times, serif;
+}
+
+.btn-outline-warning {
+  background-color: rgb(255, 165, 31);
+  color: black;
 }
 
 @media (max-width: 576px) {
